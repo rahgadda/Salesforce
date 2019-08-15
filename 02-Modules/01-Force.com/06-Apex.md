@@ -55,8 +55,7 @@
 
 - A variable is a container for data. You can give it a name to describe what’s in it. You can also add things to the container based on the data type.
 - Primitive Data Types  
-  **|Type | Description|**
-  :-----:
+  |Type | Description|
   |:---|:---|
   |Integer | A positive or negative 32 bit number that doesn’t have a decimal point.|
   |Long | This is a 64-bit number without a decimal point.|
@@ -71,6 +70,7 @@
   |Time | This variable is used to store the particular time. his variable should always be declared with the system static method.|
   |Blob | A collection of binary data stored as a single object. Used for documents.|
   |Object | Any data type that is supported in Apex. All Apex data types inherit from Object.|
+
 - Apex is a strongly-typed language, meaning that each time you declare (create) a variable, you set its data type, its name, and optionally, its initial value.
 - Default value of a variable is **null**
 
