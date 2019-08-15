@@ -55,8 +55,8 @@
 
 - A variable is a container for data. You can give it a name to describe what’s in it. You can also add things to the container based on the data type.
 - Primitive Data Types  
-  Type | Description
-  --- | ---
+  Type | Description  
+  --- | ---  
   Integer | A positive or negative 32 bit number that doesn’t have a decimal point.
   Long | This is a 64-bit number without a decimal point.
   Decimal | A positive or negative number that has a decimal point.
