@@ -55,21 +55,21 @@
 
 - A variable is a container for data. You can give it a name to describe what’s in it. You can also add things to the container based on the data type.
 - Primitive Data Types  
-  Type | Description  
-  --- | ---  
-  Integer | A positive or negative 32 bit number that doesn’t have a decimal point.
-  Long | This is a 64-bit number without a decimal point.
-  Decimal | A positive or negative number that has a decimal point.
-  Double | This is a 64-bit number that includes a decimal point.
-  String | A series of characters surrounded by single quotes. This can include any text as short as one letter to sentences.
-  Boolean | Typically either true or false. In Apex, null (empty) is also a valid value. Boolean is commonly used with checkboxes.
-  Record ID | Salesforce record Id uniquely identifies each record in salesforcce. Salesforce record Id can either be 15 digit (case-sensitive version & referenced in UI) or 18 digit.
-  enum | A typed list of values
-  Date | This can only store the date and not the time.
-  Datetime | This can only store the date and time.
-  Time | This variable is used to store the particular time. his variable should always be declared with the system static method.
-  Blob | A collection of binary data stored as a single object. Used for documents.
-  Object | Any data type that is supported in Apex. All Apex data types inherit from Object.
+  |Type | Description|
+  |--- | ---|
+  |Integer | A positive or negative 32 bit number that doesn’t have a decimal point.|
+  |Long | This is a 64-bit number without a decimal point.|
+  |Decimal | A positive or negative number that has a decimal point.|
+  |Double | This is a 64-bit number that includes a decimal point.|
+  |String | A series of characters surrounded by single quotes. This can include any text as short as one letter to sentences.|
+  |Boolean | Typically either true or false. In Apex, null (empty) is also a valid value. Boolean is commonly used with checkboxes.|
+  |Record ID | Salesforce record Id uniquely identifies each record in Salesforcce. Salesforce record Id can either be 15 digit (case-sensitive version & referenced in UI) or 18 digit.|
+  |enum | A typed list of values|
+  |Date | This can only store the date and not the time.|
+  |Datetime | This can only store the date and time.|
+  |Time | This variable is used to store the particular time. his variable should always be declared with the system static method.|
+  |Blob | A collection of binary data stored as a single object. Used for documents.|
+  |Object | Any data type that is supported in Apex. All Apex data types inherit from Object.|
 - Apex is a strongly-typed language, meaning that each time you declare (create) a variable, you set its data type, its name, and optionally, its initial value.
 - Default value of a variable is **null**
 
