@@ -3,6 +3,7 @@
 - Data model is a way to model what database tables look like in a way that makes sense to humans.
 - In Salesforce, Database **tables** are known as **objects**, **columns** as **fields** and **rows** as **records**.
 - Salesforce supports several different types of objects
+
   - **Standard objects:**
     - These objects are included with Salesforce and used by its CRM software.
     - You can also customize standard objects by adding custom fields.
@@ -11,31 +12,32 @@
     - On creating a custom object, the platform automatically builds things like the page layout for the user interface.
     - All custom fields and tables API names are suffixed with `__c`.
   - Salesforce supports different field/column data types as given below.
-    Data Type | Description
-    --- | ---
-    Auto Number | A system-generated sequence number that uses a display format you define. The number is automatically incremented for each new record.
-    Formula | A read-only field that derives its value from a formula expression you define. The formula field is updated when any of the source fields change.
-    Roll-Up Summary | A read-only field that displays the sum, minimum, or maximum value of a field in a related list or the record count of all records listed in a related list.
-    Lookup Relationship | Creates a relationship that links this object to another object. The relationship field allows users to click on a lookup icon to select a value from a popup list. The other object is the source of the values in the list.
-    External Lookup Relationship | Creates a relationship that links this object to an external object whose data is stored outside the Salesforce org.
-    Checkbox | Allows users to select a True (checked) or False (unchecked) value.
-    Currency | Allows users to enter a dollar or other currency amount and automatically formats the field as a currency amount. This can be useful if you export data to Excel or another spreadsheet.
-    Date | Allows users to enter a date or pick a date from a popup calendar.
-    Date/Time | Allows users to enter a date and time, or pick a date from a popup calendar. When users click a date in the popup, that date and the current time are entered into the Date/Time field.
-    Email | Allows users to enter an email address, which is validated to ensure proper format. If this field is specified for a contact or lead, users can choose the address when clicking Send an Email. Note that custom email addresses cannot be used for mass emails.
-    Geolocation | Allows users to define locations. Includes latitude and longitude components, and can be used to calculate distance.
-    Number | Allows users to enter any number. Leading zeros are removed.
-    Percent | Allows users to enter a percentage number, for example, '10' and automatically adds the percent sign to the number.
-    Phone | Allows users to enter any phone number. Automatically formats it as a phone number.
-    Picklist | Allows users to select a value from a list you define.
-    Picklist (Multi-Select) | Allows users to select multiple values from a list you define.
-    Text | Allows users to enter any combination of letters and numbers.
-    Text Area | Allows users to enter up to 255 characters on separate lines.
-    Text Area (Long) | Allows users to enter up to 131,072 characters on separate lines.
-    Text Area (Rich) | Allows users to enter formatted text, add images and links. Up to 131,072 characters on separate lines.
-    Text (Encrypted) | Allows users to enter any combination of letters and numbers and store them in encrypted form.
-    Time | Allows users to enter a local time. For example, "2:40 PM", "14:40", "14:40:00", and "14:40:50.600" are all valid times for this field.
-    URL | Allows users to enter any valid website address. When users click on the field, the URL will open in a separate browser window.
+
+    | Data Type                    | Description                                                                                                                                                                                                                                                      |
+    | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Auto Number                  | A system-generated sequence number that uses a display format you define. The number is automatically incremented for each new record.                                                                                                                           |
+    | Formula                      | A read-only field that derives its value from a formula expression you define. The formula field is updated when any of the source fields change.                                                                                                                |
+    | Roll-Up Summary              | A read-only field that displays the sum, minimum, or maximum value of a field in a related list or the record count of all records listed in a related list.                                                                                                     |
+    | Lookup Relationship          | Creates a relationship that links this object to another object. The relationship field allows users to click on a lookup icon to select a value from a popup list. The other object is the source of the values in the list.                                    |
+    | External Lookup Relationship | Creates a relationship that links this object to an external object whose data is stored outside the Salesforce org.                                                                                                                                             |
+    | Checkbox                     | Allows users to select a True (checked) or False (unchecked) value.                                                                                                                                                                                              |
+    | Currency                     | Allows users to enter a dollar or other currency amount and automatically formats the field as a currency amount. This can be useful if you export data to Excel or another spreadsheet.                                                                         |
+    | Date                         | Allows users to enter a date or pick a date from a popup calendar.                                                                                                                                                                                               |
+    | Date/Time                    | Allows users to enter a date and time, or pick a date from a popup calendar. When users click a date in the popup, that date and the current time are entered into the Date/Time field.                                                                          |
+    | Email                        | Allows users to enter an email address, which is validated to ensure proper format. If this field is specified for a contact or lead, users can choose the address when clicking Send an Email. Note that custom email addresses cannot be used for mass emails. |
+    | Geolocation                  | Allows users to define locations. Includes latitude and longitude components, and can be used to calculate distance.                                                                                                                                             |
+    | Number                       | Allows users to enter any number. Leading zeros are removed.                                                                                                                                                                                                     |
+    | Percent                      | Allows users to enter a percentage number, for example, '10' and automatically adds the percent sign to the number.                                                                                                                                              |
+    | Phone                        | Allows users to enter any phone number. Automatically formats it as a phone number.                                                                                                                                                                              |
+    | Picklist                     | Allows users to select a value from a list you define.                                                                                                                                                                                                           |
+    | Picklist (Multi-Select)      | Allows users to select multiple values from a list you define.                                                                                                                                                                                                   |
+    | Text                         | Allows users to enter any combination of letters and numbers.                                                                                                                                                                                                    |
+    | Text Area                    | Allows users to enter up to 255 characters on separate lines.                                                                                                                                                                                                    |
+    | Text Area (Long)             | Allows users to enter up to 131,072 characters on separate lines.                                                                                                                                                                                                |
+    | Text Area (Rich)             | Allows users to enter formatted text, add images and links. Up to 131,072 characters on separate lines.                                                                                                                                                          |
+    | Text (Encrypted)             | Allows users to enter any combination of letters and numbers and store them in encrypted form.                                                                                                                                                                   |
+    | Time                         | Allows users to enter a local time. For example, "2:40 PM", "14:40", "14:40:00", and "14:40:50.600" are all valid times for this field.                                                                                                                          |
+    | URL                          | Allows users to enter any valid website address. When users click on the field, the URL will open in a separate browser window.                                                                                                                                  |
 
 ---
 
