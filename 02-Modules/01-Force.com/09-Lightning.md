@@ -58,7 +58,7 @@
 
 - Building blocks of LWC
 
-  - HelloWorld
+  - Creating HelloWorld WebComponent
 
     - Navigate to `scr/modules` and create a new folder `learn/hello`
     - Create new files `hello.hmtl` and `hello.js` as below
