@@ -32,16 +32,25 @@
   - These components are framework independent and can be used in any framework like React, Angular, Oracle JET etc..
   - Cross functional teams can create a UI components based on companies style guide.
 
-#### LWC OpenSource
+#### LWC Open Source
 
 - To understand LWC, lets start working with bare bones LWC OpenSource.
-- To work with LWC, we have require below:
+- To work with LWC, we require below:
+
   - Node.js (LTS 10.15 version is used in this demo)
   - Navigate to your preferred folder and run below commands
+
     ```script
     npm i -g yarn
     npm i -g lwc-create-app
     cd D:\01-MyDev\01-Salesforce\01-LWC\00-Demo
     lwc-create-app my-app
+    cd my-app
+    yarn watch
+
     ```
+
     ![](../../01-Images/15-LWCOpenSourceInstall.png)
+
+  - Open browser http://localhost:3001, this will display below Salesforce hello scaffolding app.
+    ![](../../01-Images/16-LWCHello.png)
