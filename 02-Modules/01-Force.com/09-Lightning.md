@@ -2,16 +2,17 @@
 
 ### Overview
 
-- In this section we will go through on of the UI development model of Salesforce.com.
+- In this section we will go through one of the UI development model highlighted below of Salesforce.com.
   - Visual Force
-  - Lightning Components
+  - Lightning Components: We can build build Lightning components using two programming models as given below. Both these models can coexist and interoperable on a Salesforce page.
     - Aura Components:
       - As of March 2019, this component development is marked as read-only as Salesforce has archived.
       - The reason for this is, aura component does not follows W3C standards for developing components. Its has Salesforce proprietary recipes to create Web Components.
       - This require resources to know Salesforce specific development model. This makes harder to get resources in the market.
     - **Lightning Web Components**
-      - This is based on W3C specification with minimal Salesforce proprietary recipes like project layout, web components, directives etc..
-      - Salesforce has also OpenSourced [LWC](https://lwc.dev). This has everything except Salesforce proprietary web components.
+      - These components are also referred as **LWC**.
+      - These are based on W3C specifications with minimal Salesforce proprietary recipes like project layout, web components, directives etc..
+      - Salesforce has also opensourced [LWC](https://lwc.dev). This has everything except Salesforce proprietary web components.
 
 #### Web Components
 
@@ -32,9 +33,9 @@
   - These components are framework independent and can be used in any framework like React, Angular, Oracle JET etc..
   - Cross functional teams can create a UI components based on companies style guide.
 
-#### LWC Open Source
+#### Lightning Web Components Opensource
 
-- To understand LWC, lets start working with bare bones LWC OpenSource.
+- To understand LWC, lets start working with bare bones LWC Opensource.
 - To work with LWC, we require below:
 
   - Node.js (LTS 10.15 version is used in this demo)
