@@ -69,6 +69,22 @@
 
 ---
 
+### Relationships
+
+- There are two type of relationship
+  - Lookup:
+    - This links two objects together so that you can “look up” one object from the related items on another object.
+    - Lookup relationships can be one-to-one or one-to-many.
+    - We use lookup relationships when objects are only related in some cases.
+    - Objects in lookup relationships usually work as stand-alone objects and have their own tabs in the user interface.
+  - Master-Detail:
+    - In this type of relationship, one object is the master and another is the detail.
+    - The master object controls certain behaviors of the detail object, like who can view the detail’s data.
+    - We use master-detail relationship when the detail object doesn’t work as a stand-alone. If a record on the master object is deleted, all its related detail records are deleted as well.
+    - When you’re creating master-detail relationships, you always create the relationship field on the detail object.
+
+---
+
 ### SOQL
 
 - Salesforce provides the Salesforce Object Query Language [SOQL] to read a record from Salesforce Object. SOQL is similar to the standard SQL language but is customized.
