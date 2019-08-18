@@ -9,10 +9,12 @@
       - As of March 2019, this component development is marked as read-only as Salesforce has archived.
       - The reason for this is, aura component does not follows W3C standards for developing components. Its has Salesforce proprietary recipes to create Web Components.
       - This require resources to know Salesforce specific development model. This makes harder to get resources in the market.
+      - Aura components can contain Lightning web components (though not vice-versa).
     - **Lightning Web Components**
       - These components are also referred as **LWC**.
       - These are based on W3C specifications with minimal Salesforce proprietary recipes like project layout, web components, directives, decorators etc..
       - Salesforce has also opensourced [LWC](https://lwc.dev). This has everything except Salesforce proprietary web components.
+      - You can view the library and custom components through your org’s instance, too, at `http://<instance>.lightning.force.com/docs/component-library`.
 
 #### Web Components
 
@@ -150,3 +152,8 @@
       - Add reactive nature to a property. Any change to the variable in HTML/JS will automatically update other part. It will re-render the HTML component on change.
       - This decorator makes the `name` property private so that other components cannot set it.
       - Removing this decorator makes `name` property not reactive.
+
+### References
+
+- [Sample Gallery](https://trailhead.salesforce.com/sample-gallery)
+- [Design System](https://lightningdesignsystem.com/)
