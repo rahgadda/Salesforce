@@ -55,3 +55,53 @@
 
   - Open browser http://localhost:3001, this will display below Salesforce hello scaffolding app.
     ![](../../01-Images/16-LWCHello.png)
+
+- Building blocks of LWC
+
+  - HelloWorld
+
+    - Navigate to `scr/modules` and create a new folder `learn/hello`
+    - Create new files `hello.hmtl` and `hello.js` as below
+
+      ```html
+      <template>
+        Hello, {name}
+      </template>
+      ```
+
+      ```javascript
+      import { LightningElement, api } from "lwc";
+
+      export default class hello extends LightningElement {
+        @api name = "World!";
+      }
+      ```
+
+    - Update `src/index.html` and `src/index.js` with below
+
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <title>Hello World</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <link rel="shortcut icon" href="/resources/favicon.ico" />
+        </head>
+        <body>
+          <learn-hello></learn-hello>
+        </body>
+      </html>
+      ```
+
+      ```javascript
+      import { buildCustomElementConstructor } from "lwc";
+      import LearnHello from "learn/hello";
+
+      customElements.define(
+        "learn-hello",
+        buildCustomElementConstructor(LearnHello)
+      );
+      ```
+
+    - Delete folder `scr/modules/my`
