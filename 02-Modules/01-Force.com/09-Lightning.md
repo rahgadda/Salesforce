@@ -11,7 +11,7 @@
       - This require resources to know Salesforce specific development model. This makes harder to get resources in the market.
     - **Lightning Web Components**
       - These components are also referred as **LWC**.
-      - These are based on W3C specifications with minimal Salesforce proprietary recipes like project layout, web components, directives etc..
+      - These are based on W3C specifications with minimal Salesforce proprietary recipes like project layout, web components, directives, decorators etc..
       - Salesforce has also opensourced [LWC](https://lwc.dev). This has everything except Salesforce proprietary web components.
 
 #### Web Components
@@ -105,3 +105,48 @@
       ```
 
     - Delete folder `scr/modules/my`
+
+  - Data Binding
+
+    - To bind a property in a component’s template to a property in JavaScript class, in the template, surround the property with curly braces: `{name}`
+    - The property in `{ }` must be a valid JavaScript identifier or member expression.
+    - In HTML page, Don’t add spaces around the property, for example, `{ name }` is not valid HTML.
+    - It's illegal to compute a value in an expression, like `data[2].name['John']`.
+
+  - HelloWorld WebComponent To Take User Input
+
+    - Update files `hello.hmtl` and `hello.js` as below
+
+      ```
+      <template>
+          Hello, {name} <br>
+          Name: <input type="text" value={name} oninput={handleInput} />
+      </template>
+      ```
+
+      ```javascript
+      import { LightningElement, track } from "lwc";
+
+      export default class hello extends LightningElement {
+        @track name = "World!";
+
+        handleInput(event) {
+          let name = event.target.value;
+          this.name = name;
+        }
+      }
+      ```
+
+  - Decorator
+
+    - @api
+
+      - Add reactive nature to a property. Any change to the variable in HTML/JS will automatically update other part. It will re-render the HTML component on change.
+      - This decorator makes the `name` property public so that other components can set it.
+      - Removing this decorator makes `name` property as private variable and not reactive.
+
+    - @track
+
+      - Add reactive nature to a property. Any change to the variable in HTML/JS will automatically update other part. It will re-render the HTML component on change.
+      - This decorator makes the `name` property private so that other components cannot set it.
+      - Removing this decorator makes `name` property not reactive.
