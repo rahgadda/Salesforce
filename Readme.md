@@ -50,7 +50,7 @@
   - [Apex](./02-Modules/01-Force.com/06-Apex.md)
   - [Reports]()
   - [Visualforce]()
-  - [Lightning](./02-Modules/01-Force.com/09-Lightning.md)
+  - [Lightning Web Components](./02-Modules/01-Force.com/09-Lightning.md)
   - [Workflows]()
   - [Process Builder]()
   - [Security]()
