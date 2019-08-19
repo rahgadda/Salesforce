@@ -153,6 +153,17 @@
       - This decorator makes the `name` property private so that other components cannot set it.
       - Removing this decorator makes `name` property not reactive.
 
+  - Composition
+
+    - It enables you to build complex components by adding components within the body of another component.
+    - Composite components will have **owner**(that owns the template) and **container**(other components within the owner component).
+      | Owner | Container |
+      |:------|:----------|
+      | The owner controls all the composed components that it contains | A container is less powerful than the owner|
+      | Can set public properties on owner and container | Can set public properties only on container. Can read public properties from owner|
+      | Call public methods on owner and container | Call public methods on owner an container|
+      | Listen for events dispatched by owner and container | Listen for some events from owner and all from container|
+
 ### References
 
 - [Sample Gallery](https://trailhead.salesforce.com/sample-gallery)
