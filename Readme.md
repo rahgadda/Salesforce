@@ -40,31 +40,33 @@
 ---
 
 ## Modules
-
-- **Force.com:** It allows admins and developers to create websites and applications into the main Salesforce.com application.
-  - [Multitenant Architecture](./02-Modules/01-Force.com/01-MultiTenant.md)
-  - [Trailhead](./02-Modules/01-Force.com/02-TrailheadPlayground.md)
-  - [Developer Environment](./02-Modules/01-Force.com/03-DeveloperEnvironment.md)
-  - [AppExchange](./02-Modules/01-Force.com/04-AppExchange.md)
-  - [Data Model](./02-Modules/01-Force.com/05-DataModel.md)
-  - [Apex](./02-Modules/01-Force.com/06-Apex.md)
-  - [Reports]()
-  - [Visualforce]()
-  - [Lightning Web Components](./02-Modules/01-Force.com/09-Lightning.md)
-  - [Workflows]()
-  - [Process Builder]()
-  - [Security]()
-- **Lightning Platform:** It is also known as Force.com and is a platform as a service (PaaS) that allows developers to create add-on applications that integrate into the main Salesforce.com application.
-- **Lightning:** It includes the Lightning Component Framework and some exciting tools for developers that makes it easier to build responsive applications for any device. Salesforce mobile app and Salesforce Lightning Experience are built with Lightning components.
-  - Lightning components use client-side JavaScript controllers and server-side Apex controllers.
-  - Another great thing about Lightning components is that they’re mobile-ready.
-- **Visualforce:** It is a Markup Language (Tag based language) similar to HTML and XML that contains Components(tags) and Controllers.
-- **Salesforce1:** It is the platform which enables you to develop application and exchange data via Application Programming Interface (APIs).
-- **Heroku:** It gives developers the flexibility to create apps using their preferred languages and tools.
-- **Salesforce Thunder:** It is a big data and rules processing engine designed to analyze events and take personalized actions.
-- **Chatter:** It is an enterprise collaboration platform from Salesforce that enables your employees to collaborate.
-- **Einstein:** It provides AI capabilities to Force.com platform. It learns from the data to deliver predictions and recommendations based on your unique business processes.
-- **Blockchain:** It provides a distributed digital ledger used for sharing information, buy and sell things, and verify the authenticity of information we rely on every single day.
+- Functional Modules
+  ![](01-Images/01-FunctionalModules.png)
+- Technical Modules
+  - **Force.com:** It allows admins and developers to create websites and applications into the main Salesforce.com application.
+    - [Multitenant Architecture](./02-Modules/01-Force.com/01-MultiTenant.md)
+    - [Trailhead](./02-Modules/01-Force.com/02-TrailheadPlayground.md)
+    - [Developer Environment](./02-Modules/01-Force.com/03-DeveloperEnvironment.md)
+    - [AppExchange](./02-Modules/01-Force.com/04-AppExchange.md)
+    - [Data Model](./02-Modules/01-Force.com/05-DataModel.md)
+    - [Apex](./02-Modules/01-Force.com/06-Apex.md)
+    - [Reports]()
+    - [Visualforce]()
+    - [Lightning Web Components](./02-Modules/01-Force.com/09-Lightning.md)
+    - [Workflows]()
+    - [Process Builder]()
+    - [Security]()
+  - **Lightning Platform:** It is also known as Force.com and is a platform as a service (PaaS) that allows developers to create add-on applications that integrate into the main Salesforce.com application.
+  - **Lightning:** It includes the Lightning Component Framework and some exciting tools for developers that makes it easier to build responsive applications for any device. Salesforce mobile app and Salesforce Lightning Experience are built with Lightning components.
+    - Lightning components use client-side JavaScript controllers and server-side Apex controllers.
+    - Another great thing about Lightning components is that they’re mobile-ready.
+  - **Visualforce:** It is a Markup Language (Tag based language) similar to HTML and XML that contains Components(tags) and Controllers.
+  - **Salesforce1:** It is the platform which enables you to develop application and exchange data via Application Programming Interface (APIs).
+  - **Heroku:** It gives developers the flexibility to create apps using their preferred languages and tools.
+  - **Salesforce Thunder:** It is a big data and rules processing engine designed to analyze events and take personalized actions.
+  - **Chatter:** It is an enterprise collaboration platform from Salesforce that enables your employees to collaborate.
+  - **Einstein:** It provides AI capabilities to Force.com platform. It learns from the data to deliver predictions and recommendations based on your unique business processes.
+  - **Blockchain:** It provides a distributed digital ledger used for sharing information, buy and sell things, and verify the authenticity of information we rely on every single day.
 
 ---
 
