@@ -20,7 +20,7 @@
 
 - Navigate to [Trailhead](https://trailhead.salesforce.com) and create a Trailhead Account.
 - On successful login into Trailhead, Salesforce will automatically create Trailhead Playground for individuals. To login to your org, Navigate to **Profile Icon -> Hands On Orgs** as given below ![](../../01-Images/05-Trailhead.png)
-- Trailhead Playground will be of URL **https://domainname.lightning.force.com**. Do not change domain name for your Trailhead Playground. This may deactive your account.
+- Trailhead Playground will be of URL **https://domainname.lightning.force.com**. Do not change domain name for your Trailhead Playground. This may deactivate your account.
 
 ---
 
