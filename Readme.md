@@ -40,9 +40,9 @@
 ---
 
 ## Modules
-- Functional Modules
+### Functional Modules
   ![](01-Images/01-FunctionalModules.png)
-- Technical Modules
+### Technical Modules
   - **Force.com:** It allows admins and developers to create websites and applications into the main Salesforce.com application.
     - [Multitenant Architecture](./02-Modules/01-Force.com/01-MultiTenant.md)
     - [Trailhead](./02-Modules/01-Force.com/02-TrailheadPlayground.md)
