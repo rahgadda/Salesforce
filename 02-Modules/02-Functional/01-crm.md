@@ -7,7 +7,7 @@
 ### Data Storage
 - Salesforce organizes data as Objects and Records. 
 - Comparing to excel `Objects` are like `Tabs` & `Records` are like `Rows`
-![](../../01-Images/01-F-BulingBlocks.png)
+    ![](../../01-Images/01-F-BuildingBlocks.png)
 
     | Reference    	| Description                                                                            	|
     |--------------	|----------------------------------------------------------------------------------------	|
@@ -24,3 +24,5 @@
     | Contacts      	| Customer of companies product and services                                                                                                 	|
     | Leads         	| Potential prospects who are ready to buy or product to be identified                                                                  	|
     | Opportunities 	| Qualified leads that converted to customers. Conversion of the Lead creates an Account and Contact along with the Opportunity. 	|
+
+    ![](../../01-Images/02-F-SalesObjects.png)
