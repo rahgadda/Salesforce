@@ -7,7 +7,9 @@
 ### Data Storage
 - Salesforce organizes data as Objects and Records. 
 - Comparing to excel `Objects` are like `Tabs` & `Records` are like `Rows`
+
     ![](../../01-Images/01-F-BuildingBlocks.png)
+
 
     | Reference    	| Description                                                                            	|
     |--------------	|----------------------------------------------------------------------------------------	|
@@ -18,11 +20,13 @@
     | Record       	| Row                                                                                    	|
 - Salesforce comes with a set of standard objects already set up and ready for use.
 
-    | Object        	| Description                                                                                                                           	|
-    |---------------	|---------------------------------------------------------------------------------------------------------------------------------------	|
-    | Accounts      	| Companies we are doing business with                                                                                                  	|
-    | Contacts      	| Customer of companies product and services                                                                                                 	|
-    | Leads         	| Potential prospects who are ready to buy or product to be identified                                                                  	|
-    | Opportunities 	| Qualified leads that converted to customers. Conversion of the Lead creates an Account and Contact along with the Opportunity. 	|
+    | Object        	| Description                                                                                                                                	|
+    |---------------	|--------------------------------------------------------------------------------------------------------------------------------------------	|
+    | Products      	| Goods and Services that are sold                                                                                                           	|
+    | Accounts      	| Companies we are doing business with Customers, Supplier, Partners                                                                         	|
+    | Contacts      	| Key stake holders/Contact points of the Accounts that take business decisions on the sales of products and services                        	|
+    | Campaigns     	| Marketing activities like trade shows, advertisements, emails, calls etc...                                                                	|
+    | Leads         	| Potential prospects who are ready to buy or product to be identified                                                                       	|
+    | Opportunities 	| Qualified leads that converted to Sales deal. <br>When you convert the Lead, you create an Account and Contact along with the Opportunity. 	|
 
     ![](../../01-Images/02-F-SalesObjects.png)
