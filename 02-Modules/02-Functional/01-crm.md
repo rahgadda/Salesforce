@@ -31,3 +31,7 @@
     | Opportunities 	| Qualified leads that converted to Sales deal. <br>When you convert the Lead, you create an Account and Contact along with the Opportunity. 	|    
 
     ![](../../01-Images/02-F-SalesObjects.png)
+
+### Reference
+- [What is CRM](https://www.salesforce.com/crm/)
+- [Reference 1](https://www.youtube.com/watch?v=SdQ3cQhSgEk&t=290s)
