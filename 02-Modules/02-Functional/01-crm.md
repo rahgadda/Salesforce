@@ -27,7 +27,7 @@
     | Contacts      	| Key stake holders/Contact points of the Accounts that take business decisions on the sales of products and services                        	|
     | Campaigns     	| Marketing activities like trade shows, advertisements, emails, calls etc...                                                                	|
     | Leads         	| Potential prospects who are ready to buy or product to be identified                                                                       	|
-    | Tasks         	| Activities/Checklist items perfomed on the leads                                                                                          	|
+    | Tasks         	| Activities/Checklist items performed on the leads                                                                                          	|
     | Opportunities 	| Qualified leads that converted to Sales deal. <br>When you convert the Lead, you create an Account and Contact along with the Opportunity. 	|    
 
     ![](../../01-Images/02-F-SalesObjects.png)
